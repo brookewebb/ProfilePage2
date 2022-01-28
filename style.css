@@ -137,14 +137,13 @@ section h1{
 }
 .profile-header{
     background-color: royalblue;
-    flex: 5;
-    min-height: 130px;
+    min-height: 150px;
     border-radius: 10px 10px 0px 0px;
+    
 }
 .profile-content{
     background-color: white;
-    flex: 3;
-    padding-bottom: 20px;
+    padding: 50px 10px;
     border-radius: 0px 0px 10px 10px;
 }
 .profile-flex{
@@ -154,6 +153,8 @@ section h1{
 .img-position img{
     border-radius: 50%;
     border: 10px solid royalblue;
+    width: 200px;
+
 }
 .img-position{
     position: absolute;
@@ -235,7 +236,7 @@ aside{
 .connect-req{
     border: 10px double darkslategrey;
     border-radius: 50%;
-    width: 75px;
+    width: 90px;
     background-color: white;
     text-align: center;
     font-size: 2em;
@@ -243,9 +244,10 @@ aside{
 }
 aside h1{
     color: white;
-    font-size: 1.3em;
+    font-size: 30px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    padding: 5px;
 }
 .aside-flex{
     display: flex;
@@ -258,8 +260,8 @@ aside h1{
     background-color: white;
     color: darkslategrey;
     border: 10px double darkslategrey;
-    border-radius: 100px;
-    width: 100px;
+    border-radius: 50px;
+    width: 150px;
     text-align: center;
     font-size: 1.25em;
 }
@@ -274,11 +276,11 @@ aside img{
     padding: 10px;
 }
 .name .response{
-    width: 50px;
-    height: auto;
+    width: 25px;
 }
 .name .pic{
     width: 100px;
+
 }
 .viewbox{
     min-height: 50px;
